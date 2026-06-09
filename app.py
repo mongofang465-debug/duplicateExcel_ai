@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 from io import BytesIO
 
-st.title("Excel 去重 & 规则筛选 MVP (用户自定义)")
+st.title("Excel 去重 & 规则筛选")
 
 # 1️⃣ 上传文件
 uploaded_file = st.file_uploader("上传 Excel 文件", type=["xlsx"])
